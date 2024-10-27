@@ -1,0 +1,155 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    color: #335624;
+  
+  }
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+div {
+  
+  margin-bottom: 5px;
+
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.form{
+    background-color: #c59771bd;
+    width: 550px;
+    text-align: left;
+    border-radius: 3px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    font-family: inherit;
+    font-weight: 800;
+    padding: 0 20px 0 20px;
+  
+}
+
+label {
+  
+    display: block;
+    margin: 10px 0;
+  
+}
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+  
+    display: inline-block;
+    margin: 0 10px 10px 5px;
+    width: 100%;
+    font-family: inherit;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+input[type="data"],
+input[type="file"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  padding: 10px;
+  font-family: inherit;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin: 20px 0 10px 0;
+  padding: 10px;
+  background-color: #335624;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.form-body{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+table {
+  
+  border: 1px solid #335624;
+  margin: 20px auto;
+  width: 75%;
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+tr,
+td,
+th {
+  
+    border: 1px solid #335624;
+    padding: 10px;
+
+}
+
+tr {
+  background-color: #c59771bd;
+}
+
+small {
+
+  color: red;
+  font-style: italic;
+  float: right;
+  margin-top: 4px;
+
+}
+
+td {
+
+  font-size: 16px;
+
+}
+
+/* Set width for individual columns in the table */
+th:nth-child(1),
+td:nth-child(1) {
+  width: 20%; /* Pet Name */
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 15%; /* Pet Type */
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 20%; /* Breed */
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 20%; /* Adopter Name */
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  width: 15%; /* Email */
+}
+
+th:nth-child(6),
+td:nth-child(6) {
+  width: 10%; /* Phone */
+}
